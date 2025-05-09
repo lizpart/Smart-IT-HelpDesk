@@ -1,0 +1,44 @@
+# Web Framework and API
+fastapi==0.109.1
+uvicorn==0.27.0
+python-multipart==0.0.9
+
+# Pydantic and Settings
+pydantic==2.6.1
+pydantic-settings==2.1.0
+
+# OpenAI and LangChain
+openai==1.12.0
+langchain==0.1.0
+langchain-openai==0.0.5
+langchain-community==0.0.10
+tiktoken==0.6.0
+
+# Vector Database
+qdrant-client==1.7.0
+
+# Communication Services
+twilio==8.12.0
+sendgrid==6.10.0
+
+# Networking and Tunneling
+pyngrok==7.0.0
+requests==2.31.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# Text Processing
+regex==2023.12.25
+
+# Development and Testing
+pytest==8.0.0
+black==24.1.0
+flake8==7.0.0
+
+# Base64 and UUID (included in Python standard library)
+# datetime (included in Python standard library)
+# logging (included in Python standard library)
+# json (included in Python standard library)
+# os (included in Python standard library)
+# sys (included in Python standard library)
