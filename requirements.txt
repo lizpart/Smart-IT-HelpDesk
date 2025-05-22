@@ -15,7 +15,7 @@ langchain-community==0.0.10
 tiktoken==0.6.0
 
 # Vector Database
-qdrant-client==1.7.0
+qdrant-client==1.7.1
 
 # Communication Services
 twilio==8.12.0
