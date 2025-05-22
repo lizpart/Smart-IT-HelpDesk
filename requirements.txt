@@ -4,15 +4,15 @@ uvicorn==0.27.0
 python-multipart==0.0.9
 
 # Pydantic and Settings
-pydantic==2.5.2
-pydantic-settings==2.1.0
+pydantic==2.4.2
+pydantic-settings==2.0.3
 
 # OpenAI and LangChain
 openai==1.12.0
 langchain==0.1.0
 langchain-openai==0.0.5
 langchain-community==0.0.10
-tiktoken==0.6.0
+tiktoken==0.5.1
 
 # Vector Database
 qdrant-client==1.7.1
