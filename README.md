@@ -34,7 +34,7 @@ An AI‑powered support assistant written in **Python** (FastAPI) that uses **Tw
 * **Twilio account** with WhatsApp Sandbox enabled 
 * **OpenAI API key** (GPT‑4 access)
 * **SendGrid account** & verified sender email
-* **Qdrant** instance (local Docker or Qdrant Cloud)
+* **Qdrant** instance
 * **ngrok** account for local webhook tunneling 
 
 ---
@@ -46,8 +46,7 @@ An AI‑powered support assistant written in **Python** (FastAPI) that uses **Tw
    ````bash
    git clone https://github.com/lizpart/smart-it-helpdesk.git
    cd smart-it-helpdesk
-   ``` :contentReference[oaicite:8]{index=8}  
-
+ 
    ````
 
 2. **Create & activate virtual environment**
@@ -69,7 +68,7 @@ An AI‑powered support assistant written in **Python** (FastAPI) that uses **Tw
 
    ````bash
    pip install -r requirements.txt
-   ``` :contentReference[oaicite:11]{index=11}  
+   
 
    ````
 
@@ -88,7 +87,7 @@ An AI‑powered support assistant written in **Python** (FastAPI) that uses **Tw
    USER_EMAILS={"1234567890":"alice@example.com"}  
    ```
 
-   > *Use environment variables to keep secrets out of source control* ([GitHub][1])
+   > *Use environment variables to keep secrets out of source control* 
 
 
 ## ▶️ Running Locally
@@ -106,7 +105,7 @@ An AI‑powered support assistant written in **Python** (FastAPI) that uses **Tw
 
    ````
    https://<your-ngrok-id>.ngrok.io/webhook
-   ``` :contentReference[oaicite:13]{index=13}  
+    
 
    ````
 
@@ -139,7 +138,7 @@ smart-it-helpdesk/
 4. Push: `git push origin feature/YourFeature`
 5. Open a Pull Request
 
-Please follow code style, write tests for new features, and update documentation accordingly ([ReadMe][4]).
+Please follow code style, write tests for new features, and update documentation accordingly.
 
 ---
 
